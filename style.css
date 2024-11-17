@@ -1,0 +1,55 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    /* background-color: gray; */
+    background-image: url("../img/free-photo-of-two-hands-reaching-to-touch.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    background-position: center ;
+    
+}
+ .container{
+    text-align: center;
+ }
+ h1{
+    margin-bottom: 10px;
+    color: white;
+ }
+.box{
+    
+    height: 200px;
+    width: 400px;
+    box-shadow: 0px 0px 5px black;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 16px;
+    background-color: rgba(128, 128, 128, 0.703);
+    color: white;
+   
+}
+@media (max-width:430px) {
+    .box{
+        width: 300px;
+    }
+    
+}
+button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: red;
+    font-weight: bold;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
